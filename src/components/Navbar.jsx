@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
@@ -47,7 +47,7 @@ const Navbar = () => {
           
         </Link> */}
 
-        <div className="flex gap-4 ">
+        <div className="flex gap-4 items-center">
           <div
             onClick={() =>
               window.open("https://github.com/Guhan000/", "_blank")
@@ -60,6 +60,12 @@ const Navbar = () => {
           </div>
           <div onClick={() => window.open("https://twitter.com/__guhan_", "_blank")}>
             <FaTwitter className="w-8 h-8 cursor-pointer hover:text-[#915EFF]" />
+          </div>
+          <div onClick={() => window.open("https://wa.me/6381592160", "_blank")}>
+            <FaWhatsapp className="w-8 h-8 cursor-pointer hover:text-[#915EFF]" />
+          </div>
+          <div onClick={() => window.open("https://drive.google.com/file/d/1fcNpni_3p3wfZQ_e4swgewMjy0GAwA1f/view?usp=sharing", "_blank")}>
+            <button className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer ">Resume</button>
           </div>
         </div>
 
