@@ -226,7 +226,7 @@ const projects = [
     ],
     image: leetclone,
     source_code_link: "https://github.com/Guhan000/leetcode-clone",
-    live_link: "https://leetclone.netlify.app/problems/two-sum"
+    live_link: "https://leetclone.netlify.app/"
   },
   {
     name: "Connectify",
