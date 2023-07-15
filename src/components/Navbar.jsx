@@ -64,7 +64,7 @@ const Navbar = () => {
           <div onClick={() => window.open("https://wa.me/6381592160", "_blank")}>
             <FaWhatsapp className="w-8 h-8 cursor-pointer hover:text-[#915EFF]" />
           </div>
-          <div onClick={() => window.open("https://drive.google.com/file/d/1fcNpni_3p3wfZQ_e4swgewMjy0GAwA1f/view?usp=sharing", "_blank")}>
+          <div onClick={() => window.open("https://drive.google.com/file/d/1kvIn-uTF735eqvs9TyCrGSCqqvEyTmzS/view?ts=64b2ab3e&pli=1", "_blank")}>
             <button className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer ">Resume</button>
           </div>
         </div>
