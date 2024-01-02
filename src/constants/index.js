@@ -131,18 +131,6 @@ const experiences = [
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Mechnido",
-    icon: mechnido,
-    iconBg: "white",
-    date: "Oct 2022 - Dec 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other client side technologies.",
-      "Collaborating with other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-    ],
-  },
-  {
     title: "Programmer Analyst Trainee",
     company_name: "Cognizant",
     icon: cognizant,
