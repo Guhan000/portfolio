@@ -23,7 +23,8 @@ import {
   connectify,
   streamvibe,
   hoobank,
-  cheffood
+  cheffood,
+  assa
 } from "../assets";
 
 export const navLinks = [
@@ -117,16 +118,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Computer Science Engineering",
-    company_name: "Saranathan College of Engineering, Trichy",
-    icon: degree,
+    title: "Associate Software Engineer",
+    company_name: "Assa Abloy",
+    icon: assa,
     iconBg: "white",
-    date: "July 2019 - May 2023",
+    date: "Aug 2023 - Present",
     points: [
-      "C Programming, OOPS, DBMS, OS",
-      "Software Engineering, Artificial Intelligence",
-      "Algorithms, Data Structures, Compiler Design",
-      "Theory of Computation, Internet Programming",
+      "Developing AEM applications using React.js, Java, Typescript, SCSS, GraphQL",
+      "Collaborating with teams developers to create high-quality products.",
+      "Implementing Coding standards and clean code pattern with business people and technical team.",
     ],
   },
   {
@@ -140,7 +140,20 @@ const experiences = [
       "Collaborating with teams developers to create high-quality products.",
       "Implementing responsive design and microservices architecture for backend.",
     ],
-  }
+  },
+  {
+    title: "Computer Science Engineering",
+    company_name: "Saranathan College of Engineering, Trichy",
+    icon: degree,
+    iconBg: "white",
+    date: "July 2019 - May 2023",
+    points: [
+      "C Programming, OOPS, DBMS, OS",
+      "Software Engineering, Artificial Intelligence",
+      "Algorithms, Data Structures, Compiler Design",
+      "Theory of Computation, Internet Programming",
+    ],
+  },
 ];
 
 const projects = [

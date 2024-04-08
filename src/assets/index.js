@@ -34,6 +34,7 @@ import cheffood from "./cheffood.png";
 import hoobank from "./hoobank.png";
 import booking from "./booking.png";
 import leetclone from "./leetclone.png";
+import assa from "./assa.png";
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   hoobank,
   cheffood,
   leetclone,
-  booking
+  booking,
+  assa
 };
