@@ -124,9 +124,20 @@ const experiences = [
     iconBg: "white",
     date: "Aug 2023 - Present",
     points: [
-      "Developing AEM applications using React.js, Java, Typescript, SCSS, GraphQL",
-      "Collaborating with teams developers to create high-quality products.",
-      "Implementing Coding standards and clean code pattern with business people and technical team.",
+      Developed numerous site components using TypeScript, SCSS, React, and HTL
+for both client-side and server-side rendering. Set up monorepos using Turborepo, with
+individual build steps configured via Vite for efficient development workflows.
+• Created a centralized Redux store to manage login, user, and product-related state,
+ensuring efficient and consistent state management across the application.
+• Built reusable React components with Storybook integration and implemented efficient GraphQL queries to fetch and manage product-related data.
+• Implemented backend logic using Java Servlets to handle HTTP requests and responses, utilizing DTOs for clean data transfer across layers. Integrated Apache Kafka
+in the AEM backend to enable asynchronous communication and event-driven data flow
+between services.
+• Contributed to implementing Elastic Search indexing in AEM, ensuring seamless
+integration for fast and efficient content search and retrieval.
+• Developed Sling model in Java to support AEM components, enabling business users
+to author site content efficiently. Also implemented Junit test coverage upto 80%
+for all Sling Models to ensure code reliability and maintainability
     ],
   },
   {
