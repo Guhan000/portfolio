@@ -57,15 +57,6 @@ const Navbar = () => {
           <div onClick={() => window.open("https://www.linkedin.com/in/guhan-s-78b4821bb/", "_blank")}>
             <FaLinkedin className="w-8 h-8 cursor-pointer hover:text-[#915EFF]" />
           </div>
-          <div onClick={() => window.open("https://twitter.com/__guhan_", "_blank")}>
-            <FaTwitter className="w-8 h-8 cursor-pointer hover:text-[#915EFF]" />
-          </div>
-          <div onClick={() => window.open("https://wa.me/6381592160", "_blank")}>
-            <FaWhatsapp className="w-8 h-8 cursor-pointer hover:text-[#915EFF]" />
-          </div>
-          <div onClick={() => window.open("https://drive.google.com/file/d/1WvOg662HDkjK2eVFp6Jw4VpdJ9gj5pCW/view?usp=drive_link", "_blank")}>
-            <button className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer ">Resume</button>
-          </div>
         </div>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
