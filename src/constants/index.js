@@ -119,26 +119,22 @@ const technologies = [
 const experiences = [
   {
     title: "Associate Software Engineer",
-    company_name: "Assa Abloy",
+    company_name: "HID Global (Assa Abloy Group)",
     icon: assa,
     iconBg: "white",
     date: "Aug 2023 - Present",
-    points: [
-      "Developed numerous site components using TypeScript, SCSS, React, and HTL
-for both client-side and server-side rendering. Set up monorepos using Turborepo, with
-individual build steps configured via Vite for efficient development workflows.",
-      "Created a centralized Redux store to manage login, user, and product-related state,
-ensuring efficient and consistent state management across the application.",
-"Built reusable React components with Storybook integration and implemented efficient GraphQL queries to fetch and manage product-related data.",
-"Implemented backend logic using Java Servlets to handle HTTP requests and responses, utilizing DTOs for clean data transfer across layers. Integrated Apache Kafka
-in the AEM backend to enable asynchronous communication and event-driven data flow
-between services.",
-"Contributed to implementing Elastic Search indexing in AEM, ensuring seamless
-integration for fast and efficient content search and retrieval.",
-"Developed Sling model in Java to support AEM components, enabling business users
-to author site content efficiently. Also implemented Junit test coverage upto 80%
-for all Sling Models to ensure code reliability and maintainability"
-    ],
+points: [
+  "Built reusable, modular UI components using React, Next.js, TypeScript, and SCSS, integrated with Storybook for rapid collaboration with business teams, improving design consistency and delivery speed by 30%.",
+  "Optimized frontend performance by reducing render-blocking resources, improving LCP, CLS, and FID scores, and implementing lazy loading, code splitting, and critical CSS extraction — resulting in a 40% increase in performance and SEO scores.",
+  "Engineered efficient data workflows using GraphQL and centralized state management with Redux, minimizing redundant API calls by 25%. Integrated XML-based dialogs and Java-backed APIs for dynamic content rendering and configuration.",
+  "Led the complete Yale website redesign, collaborating on Figma wireframes and implementing responsive layouts in React and SCSS, aligning with global UI standards and enhancing overall UX performance.",
+  "Enhanced build and deployment efficiency using Vite & Turborepo in a monorepo setup, reducing build times by 45%. Integrated Google Analytics (GA) & GTM for eCommerce tracking, improving marketing attribution accuracy by 40%.",
+  "Developed and maintained scalable RESTful APIs using Node.js (Express.js) and MongoDB, leveraging aggregation pipelines and indexes to reduce query latency by 35% for product catalog and order data.",
+  "Deployed services on AWS (EC2, S3) with containerized environments using Docker, ensuring 99.9% uptime and seamless scaling for peak eCommerce traffic.",
+  "Built secure checkout and user session modules with JWT authentication and caching layers, optimizing purchase flow latency by 28% and ensuring compliance with modern web security standards.",
+  "Collaborated in daily Scrum calls with business and marketing teams to align technical solutions with content goals. Conducted regular knowledge transfer (KT) sessions and mentored junior developers on best practices in the frontend / full-stack.",
+],
+
   },
   {
     title: "Programmer Analyst Trainee",
