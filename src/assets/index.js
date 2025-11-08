@@ -35,6 +35,7 @@ import hoobank from "./hoobank.png";
 import booking from "./booking.png";
 import leetclone from "./leetclone.png";
 import assa from "./assa.png";
+import tattoo from "./tattoo.png";
 
 export {
   logo,
@@ -68,5 +69,6 @@ export {
   cheffood,
   leetclone,
   booking,
-  assa
+  assa,
+  tattoo
 };

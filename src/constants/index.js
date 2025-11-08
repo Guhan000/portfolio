@@ -24,7 +24,8 @@ import {
   streamvibe,
   hoobank,
   cheffood,
-  assa
+  assa,
+  tattoo
 } from "../assets";
 
 export const navLinks = [
@@ -164,6 +165,28 @@ points: [
 ];
 
 const projects = [
+   {
+    name: "TattooifyAI",
+    description:
+      "Tattoo AI generation powered by finetuned AI Model, Supabase, replicate, nextjs, supabase, resend",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Replicate",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tattoo,
+    source_code_link: "https://github.com/Guhan000/",
+    live_link: "https://tattooifyai.com//"
+  },
   {
     name: "Booking App",
     description:
@@ -269,25 +292,7 @@ const projects = [
     image: hoobank,
     source_code_link: "https://github.com/Guhan000/hoobank",
     live_link: "https://hoo-banking.netlify.app/"
-  },
-  {
-    name: "Chef Food",
-    description:
-      "Web-based platform that contains all sections of foods, snacks in the restaurents. User Interface built in React and CSS and added Responsiveness.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      }
-    ],
-    image: cheffood,
-    source_code_link: "https://github.com/Guhan000/chef-food",
-    live_link: "https://cheff-food.netlify.app/"
-  },
+  }
 ];
 
 export { services, technologies, experiences, projects };
